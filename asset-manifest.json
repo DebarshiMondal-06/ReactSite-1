@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ReactSite-1/static/css/main.c69566fd.chunk.css",
+    "main.js": "/ReactSite-1/static/js/main.2f3fbe45.chunk.js",
+    "main.js.map": "/ReactSite-1/static/js/main.2f3fbe45.chunk.js.map",
+    "runtime-main.js": "/ReactSite-1/static/js/runtime-main.c11f498a.js",
+    "runtime-main.js.map": "/ReactSite-1/static/js/runtime-main.c11f498a.js.map",
+    "static/css/2.75c4ecca.chunk.css": "/ReactSite-1/static/css/2.75c4ecca.chunk.css",
+    "static/js/2.4cb446a4.chunk.js": "/ReactSite-1/static/js/2.4cb446a4.chunk.js",
+    "static/js/2.4cb446a4.chunk.js.map": "/ReactSite-1/static/js/2.4cb446a4.chunk.js.map",
+    "index.html": "/ReactSite-1/index.html",
+    "precache-manifest.5fe284636a11f68ed615bfdcc6933850.js": "/ReactSite-1/precache-manifest.5fe284636a11f68ed615bfdcc6933850.js",
+    "service-worker.js": "/ReactSite-1/service-worker.js",
+    "static/css/2.75c4ecca.chunk.css.map": "/ReactSite-1/static/css/2.75c4ecca.chunk.css.map",
+    "static/css/main.c69566fd.chunk.css.map": "/ReactSite-1/static/css/main.c69566fd.chunk.css.map",
+    "static/js/2.4cb446a4.chunk.js.LICENSE.txt": "/ReactSite-1/static/js/2.4cb446a4.chunk.js.LICENSE.txt",
+    "static/media/s1.jpg": "/ReactSite-1/static/media/s1.970b859d.jpg",
+    "static/media/s2.jpg": "/ReactSite-1/static/media/s2.59fe4100.jpg",
+    "static/media/s3.jpg": "/ReactSite-1/static/media/s3.bd17a343.jpg",
+    "static/media/s4.jpg": "/ReactSite-1/static/media/s4.86ef88cc.jpg",
+    "static/media/s5.jpg": "/ReactSite-1/static/media/s5.d62ad47e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c11f498a.js",
+    "static/css/2.75c4ecca.chunk.css",
+    "static/js/2.4cb446a4.chunk.js",
+    "static/css/main.c69566fd.chunk.css",
+    "static/js/main.2f3fbe45.chunk.js"
+  ]
+}
