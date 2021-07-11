@@ -18,10 +18,10 @@ jobs:
         run: npm install -g serverless
       
       - name: Inside Frontend
-        run: cd Frontend
-        
+        run: cd Frontend && pwd
+
       - name: Installing all Dependencies
-        run: npm install    
+        run:  cd Frontend && npm install    
         
       - name: Building the site
         run: npm run build
