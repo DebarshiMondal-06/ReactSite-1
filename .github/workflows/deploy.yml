@@ -16,7 +16,10 @@ jobs:
     
       - name: Installing Serverless Framework v-2
         run: npm install -g serverless
-
+      
+      - name: Inside Frontend
+        run: cd Frontend
+        
       - name: Installing all Dependencies
         run: npm install    
         
