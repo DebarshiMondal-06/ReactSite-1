@@ -19,7 +19,7 @@ const Contact = () => {
 		alert(`Your data: \n ${data.fullname} \n ${data.phoneno} \n ${data.email} \n ${data.message}`);
 	}
 	return (
-		<>
+		<main>
 			<div className="my-5">
 				<h1 className="text-center"> Contact Us </h1>
 			</div>
@@ -52,7 +52,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-		</>
+			</main>
 	)
 }
 

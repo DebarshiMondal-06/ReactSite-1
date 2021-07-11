@@ -4,7 +4,7 @@ import Sdata from "./Sdata";
 
 const Service = () => {
     return (
-        <>
+        <main>
             <div className="my-5">
                 <h1 className="text-center"> Our Services </h1>
             </div>
@@ -24,7 +24,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </main>
     )
 }
 

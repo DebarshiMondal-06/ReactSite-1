@@ -2,7 +2,6 @@ import React from "react";
 
 const Svg1 = () => {
     return (
-        <>
             <svg className="svg1" width="650" height="600" viewBox="0 0 1240 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="undraw_Ride_a_bicycle_2yok 1" clip-path="url(#clip0)">
                     <path id="Vector" opacity="0.1"
@@ -184,7 +183,6 @@ const Svg1 = () => {
                     </clipPath>
                 </defs>
             </svg>
-        </>
     )
 }
 

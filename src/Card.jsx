@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 
 const Card = (props) => {
   return (
-    <>
       <div className="col-md-4 mx-auto">
         <div className="card">
           <div className="bg-image hover-overlay ripple" data-ripple-color="light">
@@ -19,7 +18,6 @@ const Card = (props) => {
           </div>
         </div>
       </div>
-    </>
   )
 }
 

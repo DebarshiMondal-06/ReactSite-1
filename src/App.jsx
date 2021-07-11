@@ -10,9 +10,8 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const App = () => {
-    return (
-        <>
-            <Navbar />
+    return <section>
+        <Navbar />
             <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about' component={About} />
@@ -20,9 +19,8 @@ const App = () => {
                 <Route path='/contact' component={Contact} />
                 <Redirect to="/" />
             </Switch>
-            <Footer />
-        </>
-    )
+        <Footer />
+        </section>
 }
 
 export default App;
