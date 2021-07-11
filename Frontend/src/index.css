@@ -166,3 +166,12 @@ nav {
         text-align: center;
     }
 }
+
+.display-server-message{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

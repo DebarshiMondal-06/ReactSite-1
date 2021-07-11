@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-
-      <footer class="footer text-center p-2 mb-2 text-lg-left">
+    <footer style={{
+      position: 'absolute', bottom: 0, textAlign: 'center', width: '100%'
+    }} class="footer text-center p-2 text-lg-left">
         <div class="text-center">
           © 2020 Copyright: &nbsp;
           <NavLink class="text-dark" to="/">Mondal.com</NavLink>

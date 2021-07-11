@@ -6,7 +6,7 @@ const Home = () => {
             <Common
                 name='We are the team of three!'
                 visit='/service'
-                btname="Get Started"
+                btname="Get Message"
             />
     )
 }
