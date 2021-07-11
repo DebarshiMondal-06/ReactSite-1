@@ -8,26 +8,29 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Frontend
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      
+      - name: Check Current Dir
+        run: pwd
     
       - name: Installing Serverless Framework v-2
         run: npm install -g serverless
-      
-      - name: Inside Frontend
-        run: cd Frontend && pwd
 
       - name: Installing all Dependencies
-        run: cd Frontend && npm install    
+        run: npm install    
         
       - name: Building the site
-        run: cd Frontend && npm run build
+        run: npm run build
       
       - name: Deploy to AWS
-        run: sls remove
+        run: sls deploy
         env: 
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
