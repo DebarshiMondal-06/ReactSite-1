@@ -10,7 +10,7 @@ const Common = (props) => {
             <div className="col-10 mx-auto">
               <div className="row mt-4">
                 <div className="firsttag col-md-6 p-5">
-                <h1> This is <strong className="brand-name">My-React-Website</strong></h1>
+                <h1> This is <strong className="brand-name">My-Website</strong></h1>
                   <h2 className="my-3">
                     {props.name}
                   </h2>

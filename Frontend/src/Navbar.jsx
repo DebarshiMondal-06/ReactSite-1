@@ -2,9 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  return (
-    <main>
-      <div className="container-fluid nav_bg">
+  return <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -40,8 +38,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </main>
-  )
 }
 
 export default Navbar;
