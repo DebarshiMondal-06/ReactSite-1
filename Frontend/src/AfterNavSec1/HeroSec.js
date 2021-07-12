@@ -16,7 +16,7 @@ const HeroSec = () => {
   return <section>
     <article className='hero-sec'>
       <div className='text-section'>
-        <h1>{value}</h1>
+        <h1>Production</h1>
         <p>&nbsp;Build from Heart&nbsp;</p>
       </div>
       <div className='img-section'>
