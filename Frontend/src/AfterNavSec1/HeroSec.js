@@ -3,15 +3,15 @@ import React, { useEffect, useState } from 'react'
 // Dotenv.config('./config.env');
 
 const HeroSec = () => {
-  const [value, setValue] = useState('');
-  useEffect(() => {
-    if (process.env.REACT_APP_NODE === 'Production') {
-      setValue('Production');
-    }
-    else {
-      setValue('Development');
-    }
-  }, []);
+  // const [value, setValue] = useState('');
+  // useEffect(() => {
+  //   if (process.env.REACT_APP_NODE === 'Production') {
+  //     setValue('Production');
+  //   }
+  //   else {
+  //     setValue('Development');
+  //   }
+  // }, []);
 
   return <section>
     <article className='hero-sec'>
