@@ -3,7 +3,7 @@ frameworkVersion: '2'
 package:
   exclude:
     - Frontend/**
-    - node_modules/**
+    - Backend/**
     
 
 provider:
@@ -24,12 +24,12 @@ custom:
 
 
 
-functions:
-  JokesGenerator:
-    handler: Backend/index.jokes_generator
-    name: jokes-generator
-    events:
-      - http: GET /
+# functions:
+#   JokesGenerator:
+#     handler: Backend/index.jokes_generator
+#     name: jokes-generator
+#     events:
+#       - http: GET /
 
 
 
