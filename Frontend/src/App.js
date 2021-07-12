@@ -1,34 +1,29 @@
-import React from 'react'
-import Navbar from './Navbar/Navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
-// import './index.css';
-import HeroSec from './AfterNavSec1/HeroSec';
-import SearchInputs from './InputBox/SearchInputs';
-import About from './AboutSec/About';
-import Room from './AboutSec/Room';
-import Service from './Services/Service';
-import Gallery from './Gallery/myGallery';
-import Thingstodo from './ThingsToDo/Thingstodo';
-import Review from './Review/Review';
-import Map from './Map/map';
-import Footer from './Footer/Footer';
-import Profiles from './Profiles';
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import { Switch, Route, Redirect, BrowserRouter } from "react-router-dom";
+import Home from "./Home";
+import Service from "./Services";
+import About from "./About";
+import Contact from "./Contact";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
+
+
 
 const App = () => {
-  return <Router>
-    <Profiles />
-    <Navbar />
-    <HeroSec />
-    <SearchInputs />
-    <About />
-    <Room />
-    <Service />
-    <Gallery />
-    <Thingstodo />
-    <Review />
-    <Map />
-    <Footer />
-  </Router>
+    return <BrowserRouter>
+        <Navbar />
+        <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/service' component={Service} />
+            <Route path='/contact' component={Contact} />
+            <Redirect to="/" />
+        </Switch>
+        <Footer />
+    </BrowserRouter>
 }
 
 export default App;
